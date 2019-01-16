@@ -9,7 +9,7 @@
 
 CIFAR-10 数据集 包含是个分类的 32x32 彩色图片 : airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
 
-![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/intro-to-deep-cnn/1-cifar.png)
+![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/cnn-on-cifar-10/1-cifar.png)
 
 ## 导入依赖初始化
 
@@ -70,7 +70,7 @@ for i in range(cols):
 plt.show()
 ```
 
-![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/intro-to-deep-cnn/2-show.png)
+![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/cnn-on-cifar-10/2-show.png)
 
 ## 处理数据
 
@@ -325,7 +325,7 @@ plt.show()
 print("Test accuracy:", accuracy_score(y_test, y_pred_test_classes))
 ```
 
-![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/intro-to-deep-cnn/3-maxtrix.png)
+![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/cnn-on-cifar-10/3-maxtrix.png)
 
 我们可以通过混淆矩阵看出，猫和狗比较难分辨，船和飞机也有一点难。
 
@@ -352,7 +352,7 @@ for i in range(cols):
 plt.show()
 ```
 	
-![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/intro-to-deep-cnn/4-predict.png)
+![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/cnn-on-cifar-10/4-predict.png)
 
 ## 分析模型
 
@@ -524,4 +524,4 @@ leaky_re_lu_1
 
 需要等待一段时间，然后可以看到如图提取的最大刺激：
 
-![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/intro-to-deep-cnn/5-mu.png)
+![avatar](https://raw.githubusercontent.com/dengziming/blogs-images/master/images/intro-to-deep-learning/cnn-on-cifar-10/5-mu.png)
